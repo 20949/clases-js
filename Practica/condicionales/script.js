@@ -91,23 +91,23 @@ if (email === "pedro@gmail.com" && password === "123123") {
     Ejemplo: Lunes y Miércoles: estudiar. Martes y Jueves: Entrenar. Viernes: ir al cine, Sábado y Domingo: descanso.
 */
 
-// let diaIngresado = prompt('Ingrese el día a verificar')
+let diaIngresado = prompt('Ingrese el día a verificar')
 
 
-// if (diaIngresado === "lunes" || diaIngresado === "miercoles") {
-//     console.log('Estudiar')
-// } else if (diaIngresado === "martes" || diaIngresado === "jueves") {
-//     console.log("Entrenar")
-// } else if (diaIngresado === "viernes") {
-//     console.log("Ir al cine")
-// }
+if (diaIngresado === "lunes" || diaIngresado === "miercoles") {
+    console.log('Estudiar')
+} else if (diaIngresado === "martes" || diaIngresado === "jueves") {
+    console.log("Entrenar")
+} else if (diaIngresado === "viernes") {
+    console.log("Ir al cine")
+}
 
-// // diaIngresado: sabado -> TRUE      ||  FALSE -> TRUE.
+// diaIngresado: sabado -> TRUE      ||  FALSE -> TRUE.
 
-// else if (diaIngresado === "sabado" || diaIngresado === "domingo") {
-//     console.log('Descanso')
-// }else{
-//     console.log('Día ingresado no válido.')
-// }
+else if (diaIngresado === "sabado" || diaIngresado === "domingo") {
+    console.log('Descanso')
+}else{
+    console.log('Día ingresado no válido.')
+}
 
 
